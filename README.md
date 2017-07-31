@@ -4,6 +4,37 @@
 
 A lightweight and streamlined JavaScript DOM program that allows users to make changes to the DOM easily with less lines of code.
 
+## How to Use
+
+It is very simple and easy to use in your own JavaScript apps! Here are some examples below:
+
+Add Classes:
+```
+  eDOM("li").addClass("red");
+```
+Remove Classes:
+```
+  eDOM("li").removeClass("red");
+```
+Add innerHTML:
+```
+eDOM("li").append(" 2017");
+```
+Replace innerHTML:
+```
+eDOM("li").html("hello");
+```
+Empty innerHTML:
+```
+  eDOM("li").empty();
+```
+Remove HTML elements:
+```
+  eDOM("li").remove();
+```
+
+For the complete list, please check out the features below!
+
 ## Features
 
 ### DOM Traversal and Manipulation

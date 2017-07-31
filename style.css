@@ -1,0 +1,19 @@
+.container {
+  display: flex;
+  flex-direction: column;
+
+}
+
+button {
+  width: 200px;
+}
+
+.red {
+  color:red;
+}
+
+
+.middle {
+  display:flex;
+  flex-direction: row;
+}
